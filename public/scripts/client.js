@@ -83,12 +83,13 @@ app.controller('MainController', ['$http', function ($http) {
     };
 
 
-
+// sends email request and data to server side
     self.sendEmail = function(mailObject) {
       $http.post('/mail', mailObject).then(function(response){
         console.log("Email has been sent: ", response.data);
         self.mailObject = "";
     });
   }
+
 
 }]);//ennd of app.controller
