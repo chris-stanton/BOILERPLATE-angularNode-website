@@ -123,17 +123,17 @@
     <!-- CONTACT HEADING -->
     <section id="contact" class="section w3-dark-grey w3-hover-opacity">
       <div class="w3-container w3-center">
-        <h1 class="w3-text-shadow">GET IN TOUCH</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h1 class="w3-text-shadow"> {{mc.contactHeader}} </h1>
+        <p> {{mc.contactDescription}} </p>
       </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- CONTACT EMAIL-->
     <section class="section">
       <div class="w3-container">
         <div class="w3-card-4">
           <div class="w3-container w3-dark-grey">
-            <h2>Contact Us</h2>
+            <h2> {{mc.contactEmailHeader}}</h2>
           </div>
             <form class="w3-container w3-padding-xlarge">
             <label class="w3-label">Name</label>
@@ -157,18 +157,19 @@
 
 
 
-    <!-- MODAL -->
+    <!-- MODAL (learn more) -->
     <div id="start-modal" class="w3-modal">
       <div class="w3-modal-content">
         <header class="w3-container w3-red">
           <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-closebtn">&times;</span>
-          <h2>Get Started</h2>
+          <h2> {{mc.modalHeader}} </h2>
         </header>
 
         <div class="w3-container">
           <form>
             <div class="w3-section">
-              <label>Name</label>
+              {{mc.modalContainer}}
+              <!-- <label>Name</label>
               <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name">
               <label>Username</label>
               <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username">
@@ -176,7 +177,7 @@
               <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
               <label>Confirm Password</label>
               <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
-              <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button>
+              <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button> -->
             </div>
           </form>
         </div>

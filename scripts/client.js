@@ -42,6 +42,7 @@ app.controller('MainController', function () {
     self.servicesDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
 // ------------ SERVICES ICONS ----------------- //
+// MUST change icons in index.html file
     self.iconOneHeader = "Internet Marketing";
     self.iconOneDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
@@ -55,15 +56,26 @@ app.controller('MainController', function () {
     self.iconFourDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
 // ----------- CONTACT HEADING --------------- //
+    self.contactHeader = "GET IN TOUCH";
+    self.contactDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
-
-// --------------- CONTACT ------------------- //
-
+// ------------ CONTACT EMAIL --------------- //
+    self.contactEmailHeader = "Email Us!";
 
 // ---------------- FOOTER ------------------ //
     self.footer = "BUISNESS NAME COPYRIGHT; 2017";
 
 // ---------------- MODAL ------------------ //
+    self.modalHeader = "Get Started";
+    self.modalContainer = "This is the Modal Container.  HTML gets built out in index.html file " +
+                          "using HTML5 and CSS3 elements and styling.  Must EDIT this area BEFORE USE. " +
+                          "The modal is mobile friendly and the height dynamically changes with the amount of HTML content.";
+
+
+
+
+
+
 
     self.accFunction = function(id) {
         var x = document.getElementById(id);
