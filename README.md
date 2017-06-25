@@ -1,12 +1,33 @@
+
+---
+
 ## Technologies Used
-  1. HTML
-  2. CSS
+  1. HTML5
+  2. CSS3
   3. Javascript
-  4. Angular ``` v1.6.3 ```
+  4. Angular
+  5. Node.js
+  6. Express
+  7. Nodemailer
+  8. DOTENV
 
 ## How To Install App
   1. Fork or download zip file
-  2. Open index.html file in browser
+  2. Open Terminal and ``cd`` into ``angularNode-website`` project folder
+  3. Run terminal command ``npm install`` to download Node.js Dependancies. (note: NPM must me installed on your machine)
+  4. Create ``.env`` file in the root of ``angularNode-website`` project folder
+  5. Configure ``.env`` file:
+    - copy and paste code into ``.env`` file:
+
+      ``
+      ACCOUNT_NAME= your EMAIL ADDRESS goes here
+      ACCOUNT_PASSWORD= your email PASSWORD goes here
+      ``
+  6. Run terminal commands:
+    - ``npm start`` (starts server)
+    - ``npm test`` (starts server using nodemon)
+  7. Open browser
+  8. App is listening on ``Localhost:5000``
 
 ---
 
