@@ -27,7 +27,7 @@
     - ``npm start`` (starts server)
     - ``npm test`` (starts server using nodemon)
   7. Open browser
-  8. App is listening on ``Localhost:5000``
+  8. App is listening on ``localhost:5000``
 
 ---
 

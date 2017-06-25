@@ -11,7 +11,7 @@ var smtpTransport = require('nodemailer-smtp-transport');
 
 app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static('./'));
+app.use(express.static('./public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -46,7 +46,7 @@ app.post('/mail', function(req,res){
 });//end of app.post()
 
 app.get('/', function(req,res){
-    res.sendFile(path.resolve('./index.html'));
+    res.sendFile(path.resolve('./public/index.html'));
 });
 
 app.listen(app.get('port'), function(){
