@@ -7,17 +7,24 @@ app.controller('MainController', function () {
     var self = this;
 
     self.message = "Angular is sourced correctly";
+
+// -------------- NAVIGATION ------------------- //
     self.buisnessHeader = "Buisness Name or Logo";
 
+// --------------- SHOWCASE -------------------- //
     self.homeMainTitle = "Home Main Title";
     self.homeMainDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION " +
                                 "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+
+// ------------- SECTION ONE ------------------ //
     self.windowTwoHeader = "Welcome Home";
     self.windowTwoDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
+// ------------- SECTION TWO ------------------ //
     self.windowThreeHeader = "Let's Begin";
     self.windowThreeDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
+// ---------------- ABOUT --------------------- //
     self.windowOneWhatWeDoHeader = "What We Do One";
     self.windowOneWhatWeDoDescription = "One DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION " +
                                         "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
@@ -30,9 +37,11 @@ app.controller('MainController', function () {
     self.windowThreeWhatWeDoDescription = "Three DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION " +
                                           "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
+// ----------- SERVICES HEADING ---------------- //
     self.servicesHeader = "Our Sevices";
     self.servicesDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
+// ------------ SERVICES ICONS ----------------- //
     self.iconOneHeader = "Internet Marketing";
     self.iconOneDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
@@ -45,6 +54,16 @@ app.controller('MainController', function () {
     self.iconFourHeader = "Cloud Hosting";
     self.iconFourDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
 
+// ----------- CONTACT HEADING --------------- //
+
+
+// --------------- CONTACT ------------------- //
+
+
+// ---------------- FOOTER ------------------ //
+    self.footer = "BUISNESS NAME COPYRIGHT; 2017";
+
+// ---------------- MODAL ------------------ //
 
     self.accFunction = function(id) {
         var x = document.getElementById(id);
