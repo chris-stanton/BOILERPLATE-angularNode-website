@@ -20,6 +20,8 @@
   7. Body-Parser
   8. Nodemailer
   9. dotnev-node
+  10. W3 CSS
+  11. Font Awesome
 
 ### How To Install App
   1. Fork or download zip file
