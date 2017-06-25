@@ -6,7 +6,7 @@
 ---
 
 ### Description
-######   This Node.js project is build from the Node platform using Angular as the front-end framework.  All header, descriptions, logos and images all have specific angular client variables making this template use to transform form busness to busness. When converting for specific applications, ONLY client.js shall be marked up and altered.  The framework is both desktop and mobile friendly.
+######   This Node.js project is build from the Node platform using Angular as the front-end framework.  All headers, descriptions, logos and images all have specific angular client variables making this template easy to transform from buisness to buisness. When converting for specific applications, ONLY ``client.js`` and ``styles.css`` shall be marked up and altered.  The framework is both desktop and mobile friendly.
 
 ---
 
