@@ -1,7 +1,7 @@
 
 var app = angular.module('AngularApp', []);
 
-app.controller('MainController', function () {
+app.controller('MainController', ['$http', function ($http) {
 
 
     var self = this;
@@ -73,10 +73,6 @@ app.controller('MainController', function () {
 
 
 
-
-
-
-
     self.accFunction = function(id) {
         var x = document.getElementById(id);
         if (x.className.indexOf("w3-show") == -1) {
@@ -86,4 +82,13 @@ app.controller('MainController', function () {
         }
     };
 
-});//ennd of app.controller
+
+
+    self.sendEmail = function(mailObject) {
+      $http.post('/mail', mailObject).then(function(response){
+        console.log("Email has been sent: ", response.data);
+        self.mailObject = "";
+    });
+  }
+
+}]);//ennd of app.controller

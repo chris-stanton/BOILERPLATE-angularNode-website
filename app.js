@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 //create default SMTP transport
 var transporter = nodemailer.createTransport(smtpTransport({
-    service: 'yahoo',
+    service: process.env.ACCOUNT_SERVICE,
     auth: {
         user: process.env.ACCOUNT_NAME,
         pass: process.env.ACCOUNT_PASSWORD
@@ -26,14 +26,15 @@ var transporter = nodemailer.createTransport(smtpTransport({
 
 app.post('/mail', function(req,res){
     var mailer = req.body;
-      console.log(mailer);
 
     var mailOptions = {
-        from: '"Auto-Emailer App", <development.testing84@yahoo.com>',
-        to: mailer.toEmail,
-        subject: mailer.subject,
-        text: mailer.message,
-        html: '<b>' + mailer.message + '</b>'
+        from: '"angularNode-website", <development.testing84@yahoo.com>',
+        to: process.env.ACCOUNT_RECIEVER,
+        subject: 'Email From: angularNode-website',
+        text: mailer.email,
+        html: '<b>' + 'Name: ' + mailer.name + '<br/>' +
+              '<b>' + 'Email: ' + mailer.email + '<br/>' +
+              '<b>' + 'Message:  ' + mailer.message + '</b>'
     };
 
     transporter.sendMail(mailOptions, function(error, info){
