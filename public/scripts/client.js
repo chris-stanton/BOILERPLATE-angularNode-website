@@ -63,7 +63,7 @@ app.controller('MainController', ['$http', function ($http) {
     self.contactEmailHeader = "Email Us!";
 
 // ---------------- FOOTER ------------------ //
-    self.footer = "BUISNESS NAME COPYRIGHT; 2017";
+    self.footer = "Copy Right (C) 2017 Company Name. All Rights Reserved";
 
 // ---------------- MODAL ------------------ //
     self.modalHeader = "Get Started";
