@@ -13,33 +13,49 @@ app.controller('MainController', ['$http', function ($http) {
 
 // --------------- SHOWCASE -------------------- //
     self.homeMainTitle = "Home Main Title";
-    self.homeMainDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION " +
-                                "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+    self.homeMainDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 // ------------- SECTION ONE ------------------ //
     self.windowTwoHeader = "Welcome Home";
-    self.windowTwoDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+    self.windowTwoDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 // ------------- SECTION TWO ------------------ //
     self.windowThreeHeader = "Let's Begin";
-    self.windowThreeDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+    self.windowThreeDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 // ---------------- ABOUT --------------------- //
     self.windowOneWhatWeDoHeader = "What We Do One";
-    self.windowOneWhatWeDoDescription = "One DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION " +
-                                        "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+    self.windowOneWhatWeDoDescription = "ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                        "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
     self.windowTwoWhatWeDoHeader = "What We Do Two";
-    self.windowTwoWhatWeDoDescription = "Two DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION " +
-                                        "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+    self.windowTwoWhatWeDoDescription = "TWO Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                        "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
     self.windowThreeWhatWeDoHeader = "What We Do Three";
-    self.windowThreeWhatWeDoDescription = "Three DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION " +
-                                          "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
-
+    self.windowThreeWhatWeDoDescription = "THREE Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                          "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                          "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 // ----------- SERVICES HEADING ---------------- //
     self.servicesHeader = "Our Sevices";
-    self.servicesDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+    self.servicesDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 // ------------ SERVICES ICONS ----------------- //
 // MUST change icons in index.html file
@@ -57,7 +73,10 @@ app.controller('MainController', ['$http', function ($http) {
 
 // ----------- CONTACT HEADING --------------- //
     self.contactHeader = "GET IN TOUCH";
-    self.contactDescription = "DISCRIPTION DISCRIPTION DISCRIPTION DISCRIPTION";
+    self.contactDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+                                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure " +
+                                "dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. " +
+                                "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 // ------------ CONTACT EMAIL --------------- //
     self.contactEmailHeader = "Email Us!";

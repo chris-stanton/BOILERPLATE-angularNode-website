@@ -9,18 +9,18 @@
 ######   This Node.js project is build from the Node platform using Angular as the front-end framework.  All headers, descriptions, logos and images all have specific angular client variables making this template easy to transform from buisness to buisness. The ABOUT section has collapsible description fields to add detailed information.  When converting for specific applications, ONLY ``client.js`` and ``styles.css`` shall be marked up and altered.  The framework is both desktop and mobile friendly.
 
 #### Desktop View:
-<img src="./public/img/screenshots/desktopone.png">
+<!-- <img src="./public/img/screenshots/desktopone.png"> -->
 
-<img src="./public/img/screenshots/desktoptwo.png">
+<!-- <img src="./public/img/screenshots/desktoptwo.png"> -->
 
-<img src="./public/img/screenshots/mailer.png">
+<!-- <img src="./public/img/screenshots/mailer.png"> -->
 
 #### Mobil View:
-<img src="./public/img/screenshots/mobileone.png" width="50%">
+<!-- <img src="./public/img/screenshots/mobileone.png" width="50%"> -->
 
-<img src="./public/img/screenshots/mobiletwo.png" width="50%">
+<!-- <img src="./public/img/screenshots/mobiletwo.png" width="50%"> -->
 
-<img src="./public/img/screenshots/mobilemailer.png" width="50%">
+<!-- <img src="./public/img/screenshots/mobilemailer.png" width="50%"> -->
 
 ---
 
