@@ -2,12 +2,16 @@
   font-size:17px;
 }
 
+#navBar {
+  background-color: #000000;
+}
+
 .showcase{
-  background:url('../img/showcase.jpg') no-repeat;
+  background:url('../img/backgroundOne.png') no-repeat;
   background-position:center;
   height: 600px;
   padding:140px 100px;
-  color:#fff;
+  /*color:#fff;*/
 }
 
 .showcase h1{
@@ -44,6 +48,10 @@
 .section img{
   width:100%;
 }
+
+
+
+
 
 @media only screen and (max-width:600px){
   body{

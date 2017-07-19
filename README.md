@@ -9,18 +9,22 @@
 ######   This Node.js project is build from the Node platform using Angular as the front-end framework.  All headers, descriptions, logos and images all have specific angular client variables making this template easy to transform from buisness to buisness. The ABOUT section has collapsible description fields to add detailed information.  When converting for specific applications, ONLY ``client.js`` and ``styles.css`` shall be marked up and altered.  The framework is both desktop and mobile friendly.
 
 #### Desktop View:
-<!-- <img src="./public/img/screenshots/desktopone.png"> -->
+<img src="./public/img/screenshots/desktopone.png" width="50%">
 
-<!-- <img src="./public/img/screenshots/desktoptwo.png"> -->
+<img src="./public/img/screenshots/desktoptwo.png" width="50%">
 
-<!-- <img src="./public/img/screenshots/mailer.png"> -->
+<img src="./public/img/screenshots/desktopthree.png" width="50%">
 
-#### Mobil View:
-<!-- <img src="./public/img/screenshots/mobileone.png" width="50%"> -->
+<img src="./public/img/screenshots/desktopfour.png" width="50%">
 
-<!-- <img src="./public/img/screenshots/mobiletwo.png" width="50%"> -->
+<img src="./public/img/screenshots/modal.png" width="50%">
 
-<!-- <img src="./public/img/screenshots/mobilemailer.png" width="50%"> -->
+#### Mobile View:
+<img src="./public/img/screenshots/mobileone.png" width="50%">
+
+<img src="./public/img/screenshots/mobiletwo.png" width="50%">
+
+<img src="./public/img/screenshots/mobilethree.png" width="50%">
 
 ---
 
@@ -36,6 +40,8 @@
   9. dotnev-node
   10. W3 CSS
   11. Font Awesome
+
+---
 
 ### How To Install App
   1. Fork or download zip file
